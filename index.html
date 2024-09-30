@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/719b7be2a5.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main class="contents">
+        <h1 class="title">ToDo List</h1>
+        <hr class="underlined"/>
+        <div class="container">
+        <form id="form">
+        <label class="form-label"></label>
+        <p class="new-title">Nueva Tarea</p>
+        <input type="text" id="taskInput" name="new-task">
+        <button class="new-button" id="addBtn" type="submit">Agregar</button>
+        </form>
+        <div class="title2">
+        <div><strong>ID</strong></div>
+        <div><strong>Tarea</strong></div>
+        </div>
+        <div class="fullTask">
+        <div id="taskList"></div>
+        <p class="totalTasks">Total: <span class="value"> 0 </span></p>
+        <p class="completedTasks">Realizadas: <span class="value"> 0 </span></p>
+        </div>
+        </div>
+    </main>
+    <script src="./assets/js/script.js" ></script>
+</body>
+</html>
